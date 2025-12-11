@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Visual Studio Projects\\BridgeFingerprint\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{497C2FE5-0F49-4B5D-BE2C-14AB12972F5A}|BridgeFingerprint\\BridgeFingerprint.csproj|d:\\visual studio projects\\bridgefingerprint\\bridgefingerprint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{497C2FE5-0F49-4B5D-BE2C-14AB12972F5A}|BridgeFingerprint\\BridgeFingerprint.csproj|solutionrelative:bridgefingerprint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Visual Studio Projects\\BridgeFingerprint\\BridgeFingerprint\\Program.cs",
+              "RelativeDocumentMoniker": "BridgeFingerprint\\Program.cs",
+              "ToolTip": "D:\\Visual Studio Projects\\BridgeFingerprint\\BridgeFingerprint\\Program.cs",
+              "RelativeToolTip": "BridgeFingerprint\\Program.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAkwFkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:25:50.387Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

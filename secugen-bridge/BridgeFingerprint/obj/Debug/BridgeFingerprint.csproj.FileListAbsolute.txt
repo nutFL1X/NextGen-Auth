@@ -1,0 +1,9 @@
+D:\Visual Studio Projects\BridgeFingerprint\BridgeFingerprint\bin\Debug\BridgeFingerprint.exe.config
+D:\Visual Studio Projects\BridgeFingerprint\BridgeFingerprint\bin\Debug\BridgeFingerprint.exe
+D:\Visual Studio Projects\BridgeFingerprint\BridgeFingerprint\bin\Debug\BridgeFingerprint.pdb
+D:\Visual Studio Projects\BridgeFingerprint\BridgeFingerprint\bin\Debug\SecuGen.FDxSDKPro.Windows.dll
+D:\Visual Studio Projects\BridgeFingerprint\BridgeFingerprint\obj\Debug\BridgeFingerprint.csproj.AssemblyReference.cache
+D:\Visual Studio Projects\BridgeFingerprint\BridgeFingerprint\obj\Debug\BridgeFingerprint.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\BridgeFingerprint\BridgeFingerprint\obj\Debug\BridgeFi.E99FAAF1.Up2Date
+D:\Visual Studio Projects\BridgeFingerprint\BridgeFingerprint\obj\Debug\BridgeFingerprint.exe
+D:\Visual Studio Projects\BridgeFingerprint\BridgeFingerprint\obj\Debug\BridgeFingerprint.pdb

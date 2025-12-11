@@ -1,0 +1,134 @@
+/* styles.css – basic clean UI */
+
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, #0D1B34 0%, #071A2F 100%);          
+  color: #e5e7eb;                
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background:#0B3847;           
+  padding: 24px 28px;
+  border: 1px solid #00F0FF;
+  border-radius: 16px;
+   box-shadow: 
+      0 0 12px rgba(0, 240, 255, 0.45),   /* soft glow */
+      0 0 25px rgba(0, 240, 255, 0.35),   
+      0 0 50px rgba(0, 240, 255, 0.20);
+  width: 100%;
+  max-width: 420px;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+  color: #3BFAFF;
+}
+
+p {
+  color: #9ca3af;
+  margin-bottom: 10px;
+}
+
+form {
+  margin-top: 16px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 5px;
+  border: 1px solid #1f2937;
+  background: #020617;
+  color: #e5e7eb;
+  outline: none;
+}
+
+input:focus {
+  border-color: #6366f1;
+}
+
+button {
+  margin-top: 12px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  background: #6EFEFF;
+  color: #080808;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.link {
+  margin-top: 12px;
+  font-size: 0.9rem;
+}
+
+.link a {
+  color: #818cf8;
+  text-decoration: none;
+}
+
+.link a:hover {
+  text-decoration: underline;
+}
+
+.message {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.qr-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+ /* QR page specific styling */
+.qr-card {
+  max-width: 420px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.qr-container {
+  margin: 30px auto 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* the QRCode lib will create img or canvas inside qrContainer */
+.qr-container img,
+.qr-container canvas {
+  border-radius: 24px;            /* rounded corners */
+  padding: 16px;                  /* some breathing space */
+  background: #020814;            /* dark background behind QR */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.55);
+}
+

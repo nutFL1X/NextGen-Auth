@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>User Registration | Next-Gen Auth</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="card">
+    <h1 class="center">User Registration</h1>
+    <p class="center">
+      Register with your <strong>username</strong> and <strong>fingerprint</strong>.
+    </p>
+
+    <form id="registrationForm">
+      <!-- Username -->
+      <label for="username">Username</label>
+      <input type="text" id="username" required />
+
+      <!-- Fingerprint -->
+      <label>Fingerprint Capture</label>
+      <button type="button" id="scanBtn">Scan Fingerprint</button>
+
+      <p id="fpStatus" class="message">No fingerprint captured yet.</p>
+
+      <!-- Hidden field to hold Base64 template -->
+      <input type="hidden" id="fingerprintTemplate" />
+
+      <!-- Register button -->
+      <button type="submit" id="registerBtn" disabled>Register</button>
+    </form>
+
+    <p class="link">
+      Already registered?
+      <a href="login.html">Go to Login</a>
+    </p>
+  </div>
+
+  <script src="js/registration.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Device Pairing | Next-Gen Auth</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .spinner {
+      width: 20px;
+      height: 20px;
+      border-radius: 999px;
+      border: 2px solid rgba(148, 163, 184, 0.4);
+      border-top-color: #22c55e;
+      animation: spin 0.7s linear infinite;
+      margin: 6px auto 0;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    /* Wrapper that surrounds QR with good gap */
+    .qr-wrapper {
+      margin: 32px auto;
+      width: fit-content;
+      padding: 26px;    /* Increased padding */
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.28);
+    }
+
+    /* Extra inside buffer so QR doesn't touch wrap boundary */
+    #qrContainer {
+      padding: 10px;
+      background: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <div class="card qr-card">
+    <h1 class="center">Device Pairing</h1>
+    <p class="center">
+      Scan this QR code in your Next-Gen Auth mobile app to link your device.
+    </p>
+
+    <!-- QR + spacing -->
+    <div class="qr-wrapper">
+      <div id="qrContainer"></div>
+    </div>
+
+    <p id="qrStatus" class="message center"></p>
+
+    <p id="pairStatus" class="message center">
+      Waiting for you to pair this account in the mobile app...
+    </p>
+
+    <div id="pairSpinner" style="display:none;">
+      <div class="spinner"></div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="js/qr.js"></script>
+</body>
+</html>

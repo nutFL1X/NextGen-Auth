@@ -1,0 +1,17 @@
+{
+  "name": "next-gen-auth",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.22.1",
+    "mongoose": "^9.0.1",
+    "path": "^0.12.7"
+  }
+}

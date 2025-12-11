@@ -1,0 +1,29 @@
+# Node
+node_modules/
+dist/
+.env
+
+# Flutter / Dart
+.dart_tool/
+build/
+ios/Pods/
+android/.gradle/
+android/app/*.keystore
+pubspec.lock
+
+# Native / vendor
+secugen-bridge/vendor/
+*.dll
+*.so
+*.dylib
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# local backups
+../NGAS_backups/
